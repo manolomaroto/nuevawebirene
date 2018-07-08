@@ -1,9 +1,24 @@
+
+:root{
+	--main-color: rgba(61, 179, 199);
+	--font-color: rgba(255, 255, 255);
+	--main-font: 'Roboto', sans-serif;
+
+	--web-width: 70%;
+
+
+}
+
+body {
+	font-family: var(--main-font);
+}
+
 .flex {
 	display: flex;
 }
 
 .web-width {
-	max-width: 70%;
+	max-width: var(--web-width);
 	margin: 0 auto;
 }
 
@@ -14,4 +29,27 @@
 
 .logo-psicologia-miraflores {
 	height: 95px;
+}
+
+.nav-bar {
+	background-color: var(--main-color);
+	height: 100px;
+	border-radius: 5px;
+	box-shadow: 5px 5px 10px #666;
+}
+
+.nav-bar ul li a{
+	padding: 10px;
+	text-decoration: none;
+	color: var(--font-color);
+	font-size: 1.2em;
+	
+}
+
+.nav-links {
+	justify-content: space-around;
+}
+
+.nav-links li {
+	margin-top: 35px;
 }
