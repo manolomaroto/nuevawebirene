@@ -1,0 +1,17 @@
+.flex {
+	display: flex;
+}
+
+.web-width {
+	max-width: 70%;
+	margin: 0 auto;
+}
+
+.logo-container {
+	margin-top: 20px;
+	justify-content: space-between;
+}
+
+.logo-psicologia-miraflores {
+	height: 95px;
+}
