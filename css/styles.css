@@ -53,3 +53,28 @@ body {
 .nav-links li {
 	margin-top: 35px;
 }
+
+.lights-sky{
+	background-image: url('../img/light-bulb.jpg');
+	width: 100%;
+	height: 648px;
+	max-width: 1400px;
+    background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	background-color: var(--main-color);
+	margin-top: 50px;
+	box-shadow: 5px 5px 10px #666;
+}
+
+.link-cards-container {
+	display: flex;
+	text-decoration: none;
+	color: var(--font-color);
+	font-size: 1.2em;
+}
+
+.link-card {
+	background-color: red;
+}
